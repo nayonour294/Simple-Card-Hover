@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1280px) {
+    .card-img img {
+        width: 200px;
+    }
+
+    .card-text h2 {
+        font-size: 30px;
+    }
+
+    .card-text p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .w-33-3 {
+        width: 100%;
+        float: none;
+    }
+
+    .card-img img {
+        width: 260px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .w-33-3 {
+        width: 100%;
+        float: none;
+    }
+
+    .card-img img {
+        width: 150px;
+        margin-top: -40px;
+    }
+
+    .card-text p {
+        padding: 0 15px;
+    }
+
+    .card-text a {
+        padding: 20px 40px;
+    }
+}
